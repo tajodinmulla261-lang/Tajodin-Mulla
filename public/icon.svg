@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect width="504" height="504" x="4" y="4" rx="108" fill="none" stroke="#10b981" stroke-width="3" stroke-opacity="0.3"/>
+
+  <!-- Subtle glow ring in safe zone -->
+  <circle cx="256" cy="220" r="140" fill="none" stroke="url(#cyanGrad)" stroke-width="4" opacity="0.4" filter="url(#glow)"/>
+
+  <!-- Football icon silhouette -->
+  <g transform="translate(156, 120)">
+    <!-- Ball circle base -->
+    <circle cx="100" cy="100" r="92" fill="#0f172a" stroke="#ffffff" stroke-width="7"/>
+    <!-- Center pentagon -->
+    <polygon points="100,66 128,86 117,119 83,119 72,86" fill="#10b981"/>
+    <!-- Surrounding pentagons/lines -->
+    <path d="M100,66 L100,24" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M128,86 L168,74" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M117,119 L142,154" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M83,119 L58,154" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M72,86 L32,74" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <!-- Outer patch accents -->
+    <polygon points="100,24 80,10 120,10" fill="#38bdf8"/>
+    <polygon points="168,74 190,62 186,94" fill="#38bdf8"/>
+    <polygon points="142,154 168,172 142,188" fill="#38bdf8"/>
+    <polygon points="58,154 32,172 58,188" fill="#38bdf8"/>
+    <polygon points="32,74 10,62 14,94" fill="#38bdf8"/>
+  </g>
+
+  <!-- ITC SPORTS Typography -->
+  <text x="256" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">
+    ITC<tspan fill="#10b981">·</tspan><tspan fill="#38bdf8">SPORTS</tspan>
+  </text>
+  
+  <!-- Subtitle badge -->
+  <rect x="146" y="405" width="220" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="256" y="426" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#fbbf24" text-anchor="middle" letter-spacing="3">
+    MATCH SCORER
+  </text>
+</svg>

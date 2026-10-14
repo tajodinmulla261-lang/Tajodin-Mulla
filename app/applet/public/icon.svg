@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background with safe margin for maskable icon -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect width="500" height="500" x="6" y="6" rx="106" fill="none" stroke="#10b981" stroke-width="4" stroke-opacity="0.35"/>
+
+  <!-- Glowing outer ring in 80% safe zone -->
+  <circle cx="256" cy="210" r="130" fill="#0b1329" stroke="url(#cyanGrad)" stroke-width="5"/>
+
+  <!-- Football icon silhouette -->
+  <g transform="translate(166, 120)">
+    <!-- Ball circle base -->
+    <circle cx="90" cy="90" r="82" fill="#0f172a" stroke="#ffffff" stroke-width="6"/>
+    <!-- Center pentagon -->
+    <polygon points="90,60 115,78 105,108 75,108 65,78" fill="#10b981"/>
+    <!-- Connecting seams -->
+    <path d="M90,60 L90,22" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M115,78 L151,68" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M105,108 L128,140" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M75,108 L52,140" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M65,78 L29,68" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <!-- Outer accent patches -->
+    <polygon points="90,22 72,10 108,10" fill="#38bdf8"/>
+    <polygon points="151,68 171,58 167,86" fill="#38bdf8"/>
+    <polygon points="128,140 151,156 128,170" fill="#38bdf8"/>
+    <polygon points="52,140 29,156 52,170" fill="#38bdf8"/>
+    <polygon points="29,68 9,58 13,86" fill="#38bdf8"/>
+  </g>
+
+  <!-- ITC SPORTS Typography -->
+  <text x="256" y="375" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="3">
+    ITC<tspan fill="#10b981">·</tspan><tspan fill="#38bdf8">SPORTS</tspan>
+  </text>
+  
+  <!-- Subtitle badge -->
+  <rect x="156" y="405" width="200" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="256" y="427" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#fbbf24" text-anchor="middle" letter-spacing="3">
+    SCORE REMOTE
+  </text>
+</svg>

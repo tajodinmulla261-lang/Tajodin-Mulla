@@ -1,0 +1,23 @@
+{
+  "team_1791988181081": {
+    "name": "Bayern Munich",
+    "shortName": "BAY",
+    "crest": "🔴",
+    "primaryColor": "#DC052D",
+    "secondaryColor": "#0066B2",
+    "coach": "Vincent Kompany",
+    "formation": "4-2-3-1",
+    "lineup": [
+      {
+        "id": "bay_9",
+        "name": "Harry Kane",
+        "number": 9,
+        "position": "FWD",
+        "isStarter": true
+      }
+    ],
+    "id": "team_1791988181081",
+    "code": "BAY",
+    "textColor": "#ffffff"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Strikeline Football Broadcast Scoreboard",
+  "description": "Real-time football scoreboard system with 6 broadcast design layouts, live match statistics database API, and transparent OBS/vMix browser overlay integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

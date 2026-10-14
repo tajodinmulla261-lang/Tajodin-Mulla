@@ -1,0 +1,359 @@
+{
+  "id": "match_live_01",
+  "competition": "UEFA Champions League · Final",
+  "venue": "Wembley Stadium, London",
+  "referee": "Szymon Marciniak (POL)",
+  "matchDate": "2026-05-30",
+  "homeTeam": {
+    "id": "rma",
+    "name": "Real Madrid",
+    "shortName": "RMA",
+    "code": "RMA",
+    "primaryColor": "#EEEEEF",
+    "secondaryColor": "#0E1726",
+    "textColor": "#111827",
+    "crest": "👑",
+    "countryCode": "ESP",
+    "lineup": [
+      {
+        "id": "rma_1",
+        "number": 1,
+        "name": "T. Courtois",
+        "position": "GK",
+        "isStarter": true
+      },
+      {
+        "id": "rma_2",
+        "number": 2,
+        "name": "D. Carvajal",
+        "position": "DEF",
+        "isStarter": true
+      },
+      {
+        "id": "rma_3",
+        "number": 3,
+        "name": "E. Militao",
+        "position": "DEF",
+        "isStarter": true
+      },
+      {
+        "id": "rma_22",
+        "number": 22,
+        "name": "A. Rüdiger",
+        "position": "DEF",
+        "isStarter": true
+      },
+      {
+        "id": "rma_23",
+        "number": 23,
+        "name": "F. Mendy",
+        "position": "DEF",
+        "isStarter": true
+      },
+      {
+        "id": "rma_14",
+        "number": 14,
+        "name": "A. Tchouaméni",
+        "position": "MID",
+        "isStarter": true
+      },
+      {
+        "id": "rma_15",
+        "number": 15,
+        "name": "F. Valverde",
+        "position": "MID",
+        "isStarter": true
+      },
+      {
+        "id": "rma_5",
+        "number": 5,
+        "name": "J. Bellingham",
+        "position": "MID",
+        "isStarter": true
+      },
+      {
+        "id": "rma_8",
+        "number": 8,
+        "name": "T. Kroos",
+        "position": "MID",
+        "isStarter": true
+      },
+      {
+        "id": "rma_7",
+        "number": 7,
+        "name": "Vinicius Jr",
+        "position": "FWD",
+        "isStarter": true
+      },
+      {
+        "id": "rma_11",
+        "number": 11,
+        "name": "Rodrygo",
+        "position": "FWD",
+        "isStarter": true
+      },
+      {
+        "id": "rma_10",
+        "number": 10,
+        "name": "L. Modric",
+        "position": "MID",
+        "isStarter": false
+      },
+      {
+        "id": "rma_21",
+        "number": 21,
+        "name": "B. Diaz",
+        "position": "FWD",
+        "isStarter": false
+      },
+      {
+        "id": "rma_9",
+        "number": 9,
+        "name": "K. Mbappe",
+        "position": "FWD",
+        "isStarter": false
+      }
+    ]
+  },
+  "awayTeam": {
+    "id": "mci",
+    "name": "Manchester City",
+    "shortName": "MCI",
+    "code": "MCI",
+    "primaryColor": "#6CABDD",
+    "secondaryColor": "#1C2C5B",
+    "textColor": "#FFFFFF",
+    "crest": "⚡",
+    "countryCode": "ENG",
+    "lineup": [
+      {
+        "id": "mci_31",
+        "number": 31,
+        "name": "Ederson",
+        "position": "GK",
+        "isStarter": true
+      },
+      {
+        "id": "mci_2",
+        "number": 2,
+        "name": "K. Walker",
+        "position": "DEF",
+        "isStarter": true
+      },
+      {
+        "id": "mci_3",
+        "number": 3,
+        "name": "R. Dias",
+        "position": "DEF",
+        "isStarter": true
+      },
+      {
+        "id": "mci_25",
+        "number": 25,
+        "name": "M. Akanji",
+        "position": "DEF",
+        "isStarter": true
+      },
+      {
+        "id": "mci_24",
+        "number": 24,
+        "name": "J. Gvardiol",
+        "position": "DEF",
+        "isStarter": true
+      },
+      {
+        "id": "mci_16",
+        "number": 16,
+        "name": "Rodri",
+        "position": "MID",
+        "isStarter": true
+      },
+      {
+        "id": "mci_17",
+        "number": 17,
+        "name": "K. De Bruyne",
+        "position": "MID",
+        "isStarter": true
+      },
+      {
+        "id": "mci_20",
+        "number": 20,
+        "name": "B. Silva",
+        "position": "MID",
+        "isStarter": true
+      },
+      {
+        "id": "mci_47",
+        "number": 47,
+        "name": "P. Foden",
+        "position": "MID",
+        "isStarter": true
+      },
+      {
+        "id": "mci_10",
+        "number": 10,
+        "name": "J. Grealish",
+        "position": "FWD",
+        "isStarter": true
+      },
+      {
+        "id": "mci_9",
+        "number": 9,
+        "name": "E. Haaland",
+        "position": "FWD",
+        "isStarter": true
+      },
+      {
+        "id": "mci_19",
+        "number": 19,
+        "name": "J. Alvarez",
+        "position": "FWD",
+        "isStarter": false
+      },
+      {
+        "id": "mci_8",
+        "number": 8,
+        "name": "M. Kovacic",
+        "position": "MID",
+        "isStarter": false
+      },
+      {
+        "id": "mci_11",
+        "number": 11,
+        "name": "J. Doku",
+        "position": "FWD",
+        "isStarter": false
+      }
+    ]
+  },
+  "homeScore": 3,
+  "awayScore": 1,
+  "timer": {
+    "seconds": 4081,
+    "isRunning": true,
+    "stoppageTime": 4,
+    "period": "2H",
+    "lastTickTimestamp": 1791986407059
+  },
+  "events": [
+    {
+      "id": "evt_1",
+      "type": "GOAL",
+      "team": "home",
+      "minute": 28,
+      "playerName": "Vinicius Jr",
+      "playerNumber": 7,
+      "assistPlayerName": "J. Bellingham",
+      "timestamp": 1791984007059
+    },
+    {
+      "id": "evt_2",
+      "type": "GOAL",
+      "team": "away",
+      "minute": 54,
+      "playerName": "E. Haaland",
+      "playerNumber": 9,
+      "assistPlayerName": "K. De Bruyne",
+      "timestamp": 1791985507059
+    },
+    {
+      "id": "evt_3",
+      "type": "YELLOW_CARD",
+      "team": "home",
+      "minute": 61,
+      "playerName": "D. Carvajal",
+      "playerNumber": 2,
+      "notes": "Tactical foul",
+      "timestamp": 1791985907059
+    },
+    {
+      "id": "evt_4",
+      "type": "GOAL",
+      "team": "home",
+      "minute": 66,
+      "playerName": "J. Bellingham",
+      "playerNumber": 5,
+      "assistPlayerName": "F. Valverde",
+      "timestamp": 1791986287059
+    },
+    {
+      "id": "evt_1791986433516",
+      "type": "GOAL",
+      "team": "home",
+      "minute": 69,
+      "playerName": "Vinicius Jr",
+      "playerNumber": 7,
+      "assistPlayerName": "J. Bellingham",
+      "timestamp": 1791986433516
+    }
+  ],
+  "stats": {
+    "home": {
+      "possession": 46,
+      "shots": 12,
+      "shotsOnTarget": 7,
+      "corners": 5,
+      "fouls": 9,
+      "yellowCards": 1,
+      "redCards": 0,
+      "offsides": 2,
+      "saves": 4,
+      "passes": 382,
+      "passAccuracy": 88
+    },
+    "away": {
+      "possession": 54,
+      "shots": 14,
+      "shotsOnTarget": 5,
+      "corners": 8,
+      "fouls": 7,
+      "yellowCards": 0,
+      "redCards": 0,
+      "offsides": 1,
+      "saves": 4,
+      "passes": 479,
+      "passAccuracy": 92
+    }
+  },
+  "penalties": {
+    "homeScore": 0,
+    "awayScore": 0,
+    "homeKicks": [
+      "pending",
+      "pending",
+      "pending",
+      "pending",
+      "pending"
+    ],
+    "awayKicks": [
+      "pending",
+      "pending",
+      "pending",
+      "pending",
+      "pending"
+    ],
+    "currentTurn": "home"
+  },
+  "graphic": {
+    "active": true,
+    "type": "GOAL_BANNER",
+    "title": "GOAL!",
+    "subtitle": "Real Madrid",
+    "team": "home",
+    "playerName": "Vinicius Jr",
+    "playerNumber": 7,
+    "assistPlayerName": "J. Bellingham",
+    "durationMs": 7000,
+    "triggeredAt": 1791986433516
+  },
+  "layout": "premier",
+  "overlayConfig": {
+    "chromaColor": "transparent",
+    "position": "top-left",
+    "scale": 1,
+    "showTeamCrests": true,
+    "showEventPopups": true,
+    "soundEnabled": true
+  },
+  "updatedAt": 1791986433516
+}
